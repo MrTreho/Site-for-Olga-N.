@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="index3.css">
 	<link rel="stylesheet" type="text/css" href="zero_style.css">
 	<title>Site Olga N.</title>
 </head>
@@ -17,11 +17,14 @@
             <div class="background">
                 <div class="first-conteiner">
                     <header>
-                        <nav>
+                        <div class="menu__icon">
+                        <span></span>
+                        </div>
+                        <nav class="menu__body">
                             <ul class="menu">
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#gallery">Gallery</a></li>
-                                <li><a href="#contacts">Contacts</a></li>
+                                <li><a data-goto=".about" href="#" class="menu__link">About</a></li>
+                                <li><a data-goto=".gallery" href="#" class="menu__link">Gallery</a></li>
+                                <li><a data-goto=".footer" href="#" class="menu__link">Contacts</a></li>
                             </ul>
                         </nav>
                     </header>
@@ -34,14 +37,14 @@
                 </div>
             </div>
 
-            <!-----ГЛАВНЫЙ ЭКРАН----->
+            <!-----/ГЛАВНЫЙ ЭКРАН----->
 
             <div class="brush">
                 <img src="img/Кисть_правая.png" alt="">
             </div>
 
             <!-----ABOUT----->
-<div class="anchor"><p id="about"></p></div>
+            
 
             <div class="about">
                 
@@ -54,14 +57,14 @@
 				</div>
 			</div>
 
-            <!-----ABOUT----->
+            <!-----/ABOUT----->
 
             <div class="brush">
                 <img src="img/Кисть_левая.png" alt="">
             </div>
 
             <!-----GALLERY----->
-<div class="anchor"><p id="gallery"></p></div>
+
 
             <div class="gallery">
                 <div class="title-gallery">
@@ -95,14 +98,14 @@
                 </div>
             </div>
 
-            <!-----GALLERY----->
+            <!-----/GALLERY----->
                 
             <div class="brush">
                 <img src="img/Кисть_правая.png" alt="">
             </div>
             
             <!-----FOOTER----->
-<div class="anchor"><p id="contacts"></p></div>
+
 
             <div class="footer">
                 <div class="logo">
@@ -117,20 +120,9 @@
 
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
